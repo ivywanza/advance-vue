@@ -54,9 +54,9 @@
             try {
               const response = await axios.get(this.url + "sales");
               this.sales = response.data;
-              console.log("Fetched sales:", this.sales); // Debugging output
+              console.log("Fetched sales:", this.sales); 
             } catch (error) {
-              console.error("Error fetching sales:", error); // Error handling
+              console.error("Error fetching sales:", error); 
             }
           },
         },
